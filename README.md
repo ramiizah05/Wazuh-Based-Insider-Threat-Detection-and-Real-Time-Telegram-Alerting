@@ -165,4 +165,4 @@ alert_file = sys.argv[1]
 - Gunakan permission file yang ketat pada server.
 - Pilih level alert secara wajar agar chat tidak dipenuhi event berprioritas rendah.
 
-Panduan pembuatan bot dan pengambilan chat ID tersedia di [TELEGRAM_SETUP_ID.md](TELEGRAM_SETUP_ID.md).
+Panduan pembuatan bot dan pengambilan chat ID tersedia di [TELEGRAM_SETUP_ID.md](TELEGRAM_SETUP.md).
