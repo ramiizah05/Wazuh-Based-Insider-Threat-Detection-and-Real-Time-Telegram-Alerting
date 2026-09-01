@@ -106,7 +106,7 @@ Tambahkan blok berikut di dalam elemen `<ossec_config>`:
 ```xml
 <integration>
   <name>custom-telegram</name>
-  <level>3</level>
+  <level>10</level>
   <alert_format>json</alert_format>
 </integration>
 ```
