@@ -95,7 +95,7 @@ Periksa koneksi internet, DNS, firewall, atau kebijakan jaringan Wazuh Manager. 
 
 ### API berhasil tetapi alert Wazuh tidak masuk
 
-Jika tes manual berhasil, sisi Telegram sudah siap. Lanjutkan pemeriksaan pada konfigurasi integrasi, level alert, permission skrip, dan log `integratord` sesuai [README_ID.md](README_ID.md).
+Jika tes manual berhasil, sisi Telegram sudah siap. Lanjutkan pemeriksaan pada konfigurasi integrasi, level alert, permission skrip, dan log `integratord` sesuai [README.md](README.md).
 
 ## Menjaga kredensial
 
@@ -104,4 +104,4 @@ Jika tes manual berhasil, sisi Telegram sudah siap. Lanjutkan pemeriksaan pada k
 - Buat ulang token melalui BotFather jika ada dugaan kebocoran.
 - Batasi siapa yang dapat membaca skrip atau berkas tempat token disimpan.
 
-Setelah pengujian berhasil, lanjutkan ke panduan pemasangan integrasi dalam [README_ID.md](README_ID.md).
+Setelah pengujian berhasil, lanjutkan ke panduan pemasangan integrasi dalam [README.md](README.md).
