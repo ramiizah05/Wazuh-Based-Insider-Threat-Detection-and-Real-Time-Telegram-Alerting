@@ -4,8 +4,8 @@ import json
 import requests
 
 # ============ KONFIGURASI ============
-TELEGRAM_TOKEN = "8779736976:AAFc67r2GoY-CfEMJP94SidKma1VFJZ5KTg"
-CHAT_ID = "6279879262"
+TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+CHAT_ID = "YOUR_TELEGRAM_CHAT_ID"
 # Kalau server butuh proxy, isi di sini. Kalau tidak butuh, biarkan None.
 PROXY = None
 # Contoh kalau butuh proxy:
