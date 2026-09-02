@@ -67,7 +67,7 @@ def main():
     emoji = get_emoji(alert_level)
 
     msg = (
-        f"{emoji} *CAFE NAMARU - SECURITY ALERT*\n"
+        f"{emoji} *SECURITY ALERT*\n"
         f"━━━━━━━━━━━━━━━━━━━━\n"
         f"📋 *Rule ID:* {rule_id}\n"
         f"⚠️ *Level:* {alert_level}\n"
