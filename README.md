@@ -34,11 +34,8 @@ Informasi yang dicantumkan dalam pesan meliputi:
 .
 |-- custom-telegram.py
 |-- README.md
-|-- README_ID.md
 |-- TELEGRAM_SETUP.md
-|-- TELEGRAM_SETUP_ID.md
 |-- wazuh_telegram_alert_plan.png
-`-- LICENSE
 ```
 
 ## Persiapan
