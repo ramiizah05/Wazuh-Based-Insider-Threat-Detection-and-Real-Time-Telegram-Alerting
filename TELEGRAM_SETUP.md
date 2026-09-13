@@ -36,18 +36,20 @@ Bot tidak dapat mengawali percakapan pribadi dengan pengguna. Karena itu:
 
 Langkah ini membuat percakapan tersedia sebagai tujuan pengiriman alert.
 
-## Mendapatkan chat ID
+## Mendapatkan chat ID (via getUpdates)
 
-Untuk penggunaan pribadi, Anda dapat membuka `@userinfobot`, menekan **Start**, lalu mencatat ID numerik yang ditampilkan.
+Setelah menekan Start dan mengirim satu pesan ke bot, jalankan:
 
-Contoh:
+bash
+curl -s "https://api.telegram.org/bot<TOKEN_BOT_ANDA>/getUpdates"
 
-```text
-123456789
-```
+Cari nilai result[0].message.chat.id pada respons JSON — itulah CHAT_ID.
 
-Itulah nilai yang digunakan sebagai `CHAT_ID`. Bila notifikasi dikirim ke grup, ID grup dapat memiliki format berbeda dan biasanya diawali tanda minus; pastikan bot sudah ditambahkan ke grup tersebut.
+Catatan singkat:
 
+result kosong → belum ada pesan ke bot, kirim dulu satu pesan lalu ulangi.
+Untuk grup: tambahkan bot ke grup, kirim pesan, cari chat bertipe group/supergroup (ID biasanya negatif).
+Jika bot memakai webhook, getUpdates tidak akan berfungsi kecuali webhook dihapus dulu (.../deleteWebhook).
 ## Menguji Telegram Bot API
 
 Lakukan pengujian dari Wazuh Manager sebelum menghubungkannya dengan event Wazuh:
