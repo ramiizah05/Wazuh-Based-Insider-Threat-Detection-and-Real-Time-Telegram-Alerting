@@ -40,8 +40,9 @@ Langkah ini membuat percakapan tersedia sebagai tujuan pengiriman alert.
 
 Setelah menekan Start dan mengirim satu pesan ke bot, jalankan:
 
-bash
+```bash
 curl -s "https://api.telegram.org/bot<TOKEN_BOT_ANDA>/getUpdates"
+```
 
 Cari nilai result[0].message.chat.id pada respons JSON — itulah CHAT_ID.
 
